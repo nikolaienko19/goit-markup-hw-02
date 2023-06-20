@@ -16,7 +16,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-black-color);
-    background-color: #FCFCFC;
+    background-color: var(--primary-white-color);
 }
 
 button {
@@ -38,6 +38,10 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-accent-color);
+}
+
+.contacts-list {
+    font-style: normal;
 }
 
 .contacts-link {
@@ -86,12 +90,14 @@ button {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .hero-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--primary-white-color);
     background-color: var(--primary-accent-color);
 }
@@ -106,6 +112,7 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--secondary-black-color);
 }
 
 .projects-title {
@@ -113,7 +120,9 @@ button {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
+    counter-reset: var(--secondary-black-color);
 }
 
 .section-team {
@@ -125,7 +134,9 @@ button {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
+    color: var(--secondary-black-color);
 }
 
 .team-cards {
@@ -139,9 +150,15 @@ button {
     letter-spacing: 0.02em;
 }
 
+.team-text {
+    font-size: 16px;
+}
+
 .filters-button {
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--primary-accent-color);
     background-color: var(--secondary-white-color);
     border: 1px solid #E7E9FC;
@@ -159,6 +176,14 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--secondary-black-color);
+}
+
+.examples-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-black-color);
 }
 
 .footer {
